@@ -1,0 +1,79 @@
+.div_total_detalls {
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+}
+
+.div_esquerra_detalls {
+    width: 50%;
+    height: 800px;
+    float: left;
+    text-align: center;
+}
+
+.div_dret_detalls {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 130px;
+    width: 50%;
+    background-color: #66dbeb;
+    float: left;
+    text-align: center;
+}
+
+.inputs_register {
+    width: 600px;
+    margin-top: 10px;
+}
+
+.img_div {
+    width: 650px;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.boton_detalls_admin {
+    margin-top: 20px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    vertical-align: middle;
+    font-family: 'Rubik One', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 1253px) {
+    .inputs_register {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .div_esquerra_detalls {
+        float: none;
+        width: 100%;
+    }
+    .div_dret_detalls {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 679px) {
+    .img_div {
+        width: 400px;
+        height: 350px;
+    }
+    .div_esquerra_detalls {
+        height: auto;
+        margin-bottom: 40px;
+    }
+}

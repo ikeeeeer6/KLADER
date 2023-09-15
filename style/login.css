@@ -1,0 +1,124 @@
+.div_gran {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.div_petit1 {
+    width: 35%;
+    /* MEDIA QUERY QUAN ES FACI MES PETIT NOMES CAMBIAR AIXO*/
+    height: 700px;
+    float: left;
+    background-color: #00B4CC;
+    padding-top: 200px;
+}
+
+.div_petit2 {
+    width: 35%;
+    /* MEDIA QUERY QUAN ES FACI MES PETIT NOMES CAMBIAR AIXO*/
+    height: 700px;
+    float: left;
+    background-color: #66dbeb;
+    border-left: 1px solid black;
+    padding-top: 150px;
+}
+
+.div_petit3 {
+    width: 35%;
+    /* MEDIA QUERY QUAN ES FACI MES PETIT NOMES CAMBIAR AIXO*/
+    height: 700px;
+    float: left;
+    background-color: #66dbeb;
+    padding-top: 150px;
+    border-right: 1px solid black;
+}
+
+.div_petit4 {
+    width: 35%;
+    /* MEDIA QUERY QUAN ES FACI MES PETIT NOMES CAMBIAR AIXO*/
+    height: 700px;
+    float: left;
+    background-color: #00B4CC;
+    padding-top: 75px;
+}
+
+.div_inputs {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    /* background-color: blueviolet; */
+}
+
+.title_iniciar_sessio {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+}
+
+.title_iniciar_sessio2 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+#submit_register {
+    margin-top: 20px;
+}
+
+#submit_register2 {
+    margin-top: 20px;
+}
+
+.inputs_register {
+    width: 350px;
+    text-align: center;
+}
+
+#buto_tancar_div_alert_login {
+    cursor: pointer;
+}
+
+.buton_submit_login {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    vertical-align: middle;
+    font-family: 'Rubik One', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    background-color: #66dbeb;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .div_petit1 {
+        width: 50%;
+    }
+    .div_petit2 {
+        width: 50%;
+    }
+    .div_petit3 {
+        width: 50%;
+    }
+    .div_petit4 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 727px) {
+    .inputs_register {
+        width: 90%;
+    }
+    .title_iniciar_sessio {
+        font-size: 35px;
+    }
+}

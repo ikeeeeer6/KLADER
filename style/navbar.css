@@ -1,0 +1,28 @@
+#buscador {
+    background-size: 24px;
+    width: 200px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 0px 30px;
+    outline: none;
+}
+
+.buscador_total{
+    width: 250px;
+    height: 30px;
+    margin-top: 6px;
+}
+
+@media only screen and (max-width: 836px) {
+    #buscador {
+        width: 75%;
+        text-align: left;
+        margin-left: 30%;
+    }
+    .buscador_total{
+        width: 100%;
+    }
+    .medio {
+        text-align: center;
+    }
+}

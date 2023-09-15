@@ -1,0 +1,85 @@
+.div_perfil_dades {
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.div_perfil_guardats {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.div_botons {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.butons_perfil {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Rubik One', sans-serif;
+    transition: all .5s;
+    background-color: #66dbeb;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.div_perfil_dades {
+    text-align: center;
+}
+
+.inputs_perfil {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    margin: 0px, auto;
+    border: 2px solid #66dbeb;
+}
+
+.btn_editar_perfil {
+    margin-top: 35px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    vertical-align: middle;
+    font-family: 'Rubik One', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    background-color: #66dbeb;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.img_div {
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.div_perfil_guardats2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1064px) {
+    .img_div {
+        width: 150px;
+        height: 180px;
+    }
+    .inputs_perfil {
+        width: 80%;
+    }
+}

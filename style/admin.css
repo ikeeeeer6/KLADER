@@ -1,0 +1,401 @@
+.div_botons {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.select_categoria_sexe{
+    margin-top: 10px;
+}
+.div_contingut_pujar {
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.div_contingut_enviar_email {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.div_contingut_visualitzar {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.div_contingut_estadistiques {
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.div_contingut_afegir_categoria {
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.div_seleccionar_img {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.butons_admin {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Rubik One', sans-serif;
+    transition: all .5s;
+    background-color: #66dbeb;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.buto_eliminar_file {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Rubik One', sans-serif;
+    transition: all .5s;
+    background-color: #66dbeb;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.div_pujar_imatge {
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+.div_pujar_imatge_text {
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+#output_image,
+#output_image2 {
+    position: relative;
+    width: 200px;
+    height: 250px;
+}
+
+.imatges_pujades {
+    border: 4px solid black;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.div_butons_pujar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.inputs_register {
+    width: 600px;
+    text-align: center;
+}
+
+.div_pujar_imatge_text {
+    text-align: center;
+    padding: 70px;
+}
+
+#fileToUpload,
+#fileToUpload2 {
+    background-color: #66dbeb;
+    border: 1px solid black;
+}
+
+.img_visualitzar {
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.div_pujar_inputs_img {
+    background-color: #66dbeb;
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 36px;
+}
+
+.div_adald_estadistiques {
+    width: 100%;
+    height: 350px;
+}
+
+.div_abaix_estadistiques {
+    width: 100%;
+    height: 350px;
+}
+
+.div_estadistiques_enviar_correu {
+    width: 100%;
+    padding: 20px;
+    background-color: #66dbeb;
+}
+
+.input_estadistiques_enviar_correu_missatge {
+    width: 75%;
+    height: 100px;
+}
+
+.div_esquerre_adald_estadistiques {
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    float: left;
+}
+
+.div_dreta_adald_estadistiques {
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    float: left;
+}
+
+.div_esquerre_abaix_estadistiques {
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    float: left;
+}
+
+.div_dreta_abaix_estadistiques {
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    float: left;
+}
+
+.table_estadistiques {
+    width: 100%;
+}
+
+.div_sub_text {
+    text-align: left;
+}
+
+.delete_category {
+    margin-top: 90px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: #00B4CC;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.add_category {
+    margin-top: 90px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: #66dbeb;
+    margin-bottom: 250px;
+    padding: 40px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.btn_add_category {
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Rubik One', sans-serif;
+    transition: all .5s;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.btn_delete_category {
+    margin-top: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Rubik One', sans-serif;
+    transition: all .5s;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.btn_enviar_email{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Rubik One', sans-serif;
+    transition: all .5s;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.div_estadistiques_enviar_correu{
+    text-align: center; 
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 1580px) {
+    .inputs_register {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1252px) {
+    .div_esquerre_abaix_estadistiques {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        float: left;
+    }
+    .div_dreta_abaix_estadistiques {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        float: left;
+    }
+    .div_dreta_adald_estadistiques {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        float: left;
+    }
+    .div_esquerre_adald_estadistiques {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1146px) {
+    .div_pujar_imatge {
+        width: 50%;
+        height: auto;
+        float: none;
+    }
+    .imatges_pujades {
+        width: 200%;
+    }
+    .div_pujar_imatge_text {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        float: left;
+    }
+    .inputs_register {
+        width: 600px;
+    }
+    .div_seleccionar_img {
+        width: 200%;
+    }
+    .div_butons_pujar {
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width: 874px) {
+    .div_estadistiques_enviar_correu{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .inputs_register {
+        width: 90%;
+    }
+    .add_category_input {
+        width: 80% !important;
+    }
+    .delete_category_input {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #table_estadistiques2 {
+        display: block;
+        overflow-x: auto;
+    }
+    .img_visualitzar {
+        width: 150px;
+        height: 180px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    #correu_text {
+        max-width: 100%;
+    }
+
+    .add_category {
+        margin-top: 50px;
+        width: 100%;
+        height: 400px;
+        background-color: #66dbeb;
+        padding: 40px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .delete_category {
+        margin-top: 10px;
+        width: 100%;
+        height: 400px;
+        background-color: #66dbeb;
+        padding: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+        border: 1px solid black;
+    }
+
+}
+
+@media only screen and (max-width: 605px) {
+    .div_pujar_imatge_text {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    #output_image,
+    #output_image2 {
+        position: relative;
+        width: 160px;
+        height: 250px;
+    }
+    .div_butons_pujar {
+        width: 400px;
+    }
+}

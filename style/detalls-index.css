@@ -1,0 +1,252 @@
+.div_total {
+    width: 100%;
+    height: 750px;
+    margin-top: 30px;
+}
+
+.div_imatge {
+    width: 50%;
+    height: 750px;
+    float: left;
+    text-align: center;
+}
+
+.div_info {
+    margin-top: 130px;
+    width: 50%;
+    float: left;
+    background-color: #66dbeb;
+    padding: 20px;
+}
+
+.div_img_index2 {
+    width: 650px;
+    height: 700px;
+    position: relative;
+    float: left;
+}
+
+.img_div_principal2 {
+    width: 650px;
+    height: 700px;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.img_div_principal2:hover {
+    opacity: 0%;
+}
+
+.img_div_no_principal2 {
+    width: 650px;
+    height: 700px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.div_title {
+    width: 100%;
+    text-align: center;
+}
+
+.div_text {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.div_preu {
+    text-align: center;
+}
+
+.btn_talla {
+    width: 37px;
+    height: 34px;
+    display: inline-flex;
+    margin-right: 0px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 25%;
+    appearance: none;
+    cursor: pointer;
+}
+
+.text_button_1 {
+    font-size: 18px;
+}
+
+.text_button_2 {
+    font-size: 18px;
+    margin-left: -5px;
+}
+
+.text_button_3 {
+    font-size: 18px;
+    margin-left: 1px;
+}
+
+.text_button_4 {
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.div_talles {
+    text-align: center;
+}
+
+.div_add {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fa-regular,
+.far {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-heart:before {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#talla {
+    appearance: none;
+    cursor: pointer;
+    outline-width: 0;
+    padding: 0;
+    display: inline;
+    width: 10em;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #3a3a3a;
+    text-transform: uppercase;
+}
+
+.fa-classic,
+.fa-regular,
+.fa-solid,
+.far,
+.fas {
+    font-size: 28px;
+}
+
+.btn_add_bag {
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    top: -5px;
+}
+
+@media only screen and (max-width: 1642px) {
+
+    .img_div_principal2 {
+        width: 400px;
+        height: 400px;
+        margin-top: 20%;
+    }
+    .img_div_no_principal2 {
+        width: 400px;
+        height: 400px;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    .div_imatge {
+        width: 100%;
+        height: auto;
+    }
+    .div_img_index2 {
+        width: 100%;
+        height: 700px;
+      }
+    .div_info {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .img_div_principal2 {
+        width: 600px;
+        height: 500px;
+        margin-left: 240px;
+        margin-top: 50px
+    }
+    .img_div_no_principal2 {
+        width: 600px;
+        height: 500px;
+        margin-left: 240px;
+        margin-top: 50px
+    }
+}
+
+@media only screen and (max-width: 917px) {
+    .img_div_principal2 {
+        margin-left: 140px;
+    }
+    .img_div_no_principal2 {
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (max-width: 721px) {
+    .img_div_principal2 {
+        margin-left: 40px;
+    }
+    .img_div_no_principal2 {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 653px) {
+
+    .img_div_principal2 {
+        width: 350px;
+        height: 320px;
+    }
+    .img_div_no_principal2 {
+        width: 350px;
+        height: 320px;
+    }
+
+    .div_img_index2 {
+        height: 450px;
+      }
+
+    .div_imatge {
+        margin-left: 40px;
+    }
+    .div_imatge_index2 {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 511px) {
+
+    .img_div_principal2 {
+        margin-left: 0px;
+    }
+    .img_div_no_principal2 {
+        margin-left: 0px;
+    }
+
+    .div_imatge {
+        margin-left: 0px;
+    }
+    .div_imatge_index2 {
+        margin-left: 0px;
+    }
+}

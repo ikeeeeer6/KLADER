@@ -1,0 +1,91 @@
+.div_cistella {
+    text-align: center;
+    height: 700px;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid;
+}
+
+.div_article {
+    width: 60%;
+    height: 27%;
+    background-color: #66dbeb;
+    margin: 0px auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.div_text {
+    width: 60%;
+    float: left;
+}
+
+.div_img {
+    width: 40%;
+    float: left;
+}
+
+.div_total_pagar {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text_lletra {
+    font-size: 20px;
+}
+
+.btn_eliminar_cistella {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    vertical-align: middle;
+    font-family: 'Rubik One', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    transform: scale(0.8);
+}
+
+
+/* barra scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #66dbeb;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .div_article {
+        width: 90%;
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .div_text {
+        width: 40%;
+    }
+    .div_img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .div_article {
+        padding: 5px;
+    }
+}
